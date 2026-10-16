@@ -13,3 +13,13 @@
 @media(max-width:800px){.map h2,.illustrated h2,.chapter h2,.callout h2{font-size:40px}.slide p,.slide blockquote,.illustrated p,.road div{font-size:22px}.slide .reference{font-size:16px}.hero p{font-size:22px}.central h2{font-size:22px}.verse-triad a{font-size:40px}}
 @media(max-width:520px){.hero p{font-size:16px}.slide .reference{font-size:16px}.quiet h2,.closing h2{font-size:var(--hero)}.road div{font-size:16px}.controls{font-size:16px}.tools{font-size:16px}.controls button{padding-left:6px;padding-right:6px}.reading .slide{min-height:65svh;padding-top:65px;padding-bottom:65px}}
 .reading{display:flex;flex-direction:column}.reading main{order:2;min-width:0}.reading .controls{order:1;position:relative}
+
+/* Closing prayer points supplied by the presenter. */
+.slide.prayer-points{align-items:flex-start;padding-top:40px;padding-bottom:110px}
+.prayer-points .copy{margin:auto 0}
+.slide.prayer-points h2{font-size:56px;margin-bottom:24px}
+.prayer-list{margin:0;padding-left:30px;display:grid;gap:22px}
+.prayer-list li{padding-left:8px;font-size:22px;line-height:1.4}
+.slide.prayer-points h3{font-family:var(--text);font-size:24px;line-height:1.25;font-weight:600;letter-spacing:0;margin:0 0 8px;max-width:none;text-wrap:balance}
+.slide.prayer-points p{font-size:22px;line-height:1.4;max-width:85ch;margin:0}
+@media(max-width:800px){.slide.prayer-points{padding-top:32px;padding-bottom:130px}.prayer-points .copy{margin:0}.slide.prayer-points h2{font-size:44px}.slide.prayer-points h3{font-size:22px}.slide.prayer-points p,.prayer-list li{font-size:20px}.prayer-list{gap:24px}}
